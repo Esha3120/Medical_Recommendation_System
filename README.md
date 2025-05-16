@@ -33,3 +33,31 @@ recommendation-main/
 │   ├── predictor.py           # Prediction logic
 │   └── disease_info.py        # Disease metadata handler
 └── README.md                  # Project documentation
+
+📥 How to Run
+Clone the repository:
+
+git clone https://github.com/yourusername/recommendation-main.git
+cd recommendation-main
+Install dependencies:
+
+pip install -r requirements.txt
+Run the Streamlit app:
+
+streamlit run app.py
+
+📊 Dataset Information
+Symptom Severity: Weighted severity scores for each symptom
+
+Disease Descriptions: Summary of each condition
+
+Precautions & Medications: Suggested actions for each disease
+
+Diet & Workout Plans: Health guidance based on diagnosis
+
+📌 Author
+👤 Esha Bodhani
+
+📧 eshabodhani1@gmail.com
+
+🌐 LinkedIn
