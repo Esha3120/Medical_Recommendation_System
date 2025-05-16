@@ -1,40 +1,35 @@
-# 🩺 Medical Recommendation System
+# 🩺 Medical Disease Prediction System
 
-This repository contains a Jupyter Notebook that builds a basic **Medical Recommendation System** using machine learning techniques to assist in diagnosing potential medical conditions and suggesting treatments based on input symptoms.
+This is a Streamlit-based web application that predicts potential medical conditions based on user-input symptoms and provides relevant recommendations, such as precautions, medications, diet, and workouts.
 
-## 📁 Project Structure
+## 📌 Features
 
-- `Medical_Recommendation.ipynb`: The main notebook containing all the code for data preprocessing, model training, and prediction.
-- `README.md`: Project overview and setup guide.
+- 🌡️ Symptom-based disease prediction
+- 🧠 ML model (Random Forest) trained on symptom severity data
+- 💊 Suggestions for medications, precautions, and workouts
+- 🥗 Diet recommendations for diagnosed diseases
+- 📋 Clean UI built with Streamlit and custom CSS
 
-## 🚀 Features
+## 🚀 Tech Stack
 
-- Data Cleaning & Preprocessing
-- Symptom-based Diagnosis
-- Disease Prediction using ML algorithms (e.g., Decision Trees, Random Forest, etc.)
-- Treatment/Recommendation Suggestions
-- Visualization of Model Accuracy and Predictions
+- **Frontend:** Streamlit, CSS
+- **Backend:** Python
+- **ML Model:** Random Forest Classifier (trained using scikit-learn)
+- **Data Handling:** Pandas, NumPy
+- **Visualization:** Streamlit UI components
 
-## 📊 Technologies Used
+## 🗂️ Project Structure
 
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
-- Jupyter Notebook
-
-## 🧠 Machine Learning Models
-
-- Decision Tree Classifier
-- Random Forest Classifier
-- Support Vector Machines (optional depending on the notebook content)
-- Model Evaluation (Accuracy, Confusion Matrix)
-
-## 🛠️ Setup Instructions
-
-To run the notebook locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/medical-recommendation-system.git
-   cd medical-recommendation-system
+```bash
+recommendation-main/
+│
+├── app.py                     # Main Streamlit app
+├── assets/style.css           # Custom styling
+├── data/                      # CSV datasets (symptoms, diets, etc.)
+│   ├── rf_model.pkl           # Trained Random Forest model
+│   └── *.csv                  # Data sources (symptom severity, medication, diet, etc.)
+├── helpers/                   # Backend logic
+│   ├── model_loader.py        # Model loading utilities
+│   ├── predictor.py           # Prediction logic
+│   └── disease_info.py        # Disease metadata handler
+└── README.md                  # Project documentation
