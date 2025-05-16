@@ -33,7 +33,7 @@ recommendation-main/
 │   ├── predictor.py           # Prediction logic
 │   └── disease_info.py        # Disease metadata handler
 └── README.md                  # Project documentation
-
+```
 📥 How to Run
 Clone the repository:
 
