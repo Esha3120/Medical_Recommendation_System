@@ -55,6 +55,8 @@ Precautions & Medications: Suggested actions for each disease
 
 Diet & Workout Plans: Health guidance based on diagnosis
 
+Streamlit Link :https://medicalrecommendationsystem-mci7c87pon4hsjokyubenl.streamlit.app/
+
 📌 Author
 👤 Esha Bodhani
 
